@@ -7,7 +7,12 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
-
+{{#vuex}}
+import vuex from './store'
+{{/vuex}}
+{{#axios}}
+import vuex from './axios'
+{{/axios}}
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
